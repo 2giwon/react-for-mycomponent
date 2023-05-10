@@ -1,5 +1,6 @@
-import ClassMyComponents from "./ClassMyComponents";
+import Counter from "./Counter";
 import MyComponent from "./MyComponents";
+import Say from "./Say";
 
 function App() {
   return (
@@ -7,9 +8,8 @@ function App() {
       <MyComponent name="React" favoriteNumber={1}>
         리액트
       </MyComponent>
-      <ClassMyComponents name="Class React" favoriteNumber={2}>
-        오오
-      </ClassMyComponents>
+      <Counter />
+      <Say />
     </div>
   );
 }
