@@ -1,5 +1,7 @@
 import Counter from "./Counter";
+import EventPractice from "./EventPractice";
 import MyComponent from "./MyComponents";
+import NewCounter from "./NewCounter";
 import Say from "./Say";
 
 function App() {
@@ -9,7 +11,9 @@ function App() {
         리액트
       </MyComponent>
       <Counter />
+      <NewCounter />
       <Say />
+      <EventPractice />
     </div>
   );
 }
